@@ -1,0 +1,254 @@
+nav {
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    /* top: 0px;
+    left: 0px;
+    position: fixed; */
+    display: flex;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+.ConductBook {
+    margin-left: 700px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Book{
+    margin-top: 40px;
+}
+
+.SelfHelf {
+    margin-left: 100px;
+    margin-top: 30px;
+    
+
+}
+body {
+    background-color: white;
+}
+.userFocus {
+    margin-top: 40px;
+    font-size: x-large;
+}
+.line {
+    margin-left: 260px;
+    text-align: justify;
+    font-size: 50px;
+  
+}
+.position {
+    text-align: center;
+    margin-left: 400px;
+}
+.aligin{
+    margin-left: 370px;
+    /* margin-top: -40px; */
+
+}
+.join {
+    text-align: center;
+}
+button {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+.solidarityImg {
+    margin-top: 50px;
+}
+.hqimg {
+    width: 100%;
+    height: 700px;
+}
+.container{
+    width: 100%;
+    height: 500px;
+     position: relative;
+     display: inline-block;
+}
+.exclusive{
+    width: 100%;
+    height: 500px;
+} 
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    background-color:none;
+    padding: 20px;
+    color:black;
+    text-align: center;
+  }
+  .exclusive-text{
+    color:whitesmoke;
+    font-size: x-large;
+  }
+  .text-overlay .exclusive-text {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    margin-right: 70px;
+  
+  }
+.text-overlay .manage {
+    color: rgb(167, 161, 161);
+    font-size:15px;
+  }  
+.Unlock {
+    margin-left: 7px;
+    margin-top: 60px;
+
+}
+.security{
+    width: 100%;
+    height: 500px;
+}
+.securityDepart{
+    width: 100%;
+    height: 500px;
+     position: relative;
+     display: inline-block;
+}
+.securityoverlay{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-color:none;
+    padding: 20px;
+    color:black;
+    text-align: center;
+
+}
+.securitytext {
+    margin-left: 100px;
+    font-size: 20px;
+}
+.securitybtn{
+    margin-left: 100px;
+    background-color: gray;
+}
+.blueimg{
+    height: 500px;
+    width: 100%;
+}
+.trust{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    justify-content:space-evenly;
+     position: relative;
+     display: flex;
+    
+
+}
+.trustoverlay{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    padding: 10px;
+    transform: translate(-10%, -50%);
+    background-color:none;
+    color:black;
+    display: flex;
+}
+.story{
+    padding-right: 170px;
+    font-size: 50px;
+
+    
+}
+.loginDepart{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: cadetblue;
+}
+.logingbtn{
+    margin-left: 500px;
+    
+}
+.quote{
+    margin-left: 100px;
+    color: white;
+    margin-top: 30px;
+}
+.euro {
+    width: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 25px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background:whitesmoke;
+}
+.box{
+    border: 1px solid rgb(165, 75, 75);
+    width: 50%;
+    height: 400px;
+}
+.footerimg {
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+h3{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+.Facebook{
+    height:26px;
+    width:26px;
+}
+.Twitter{
+    height:26px;
+    width:26px;
+}
+.LinkedIn{
+    height:26px;
+    width:26px;
+}
+
+.Facebook a{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/facebook-icon-hover.png');
+
+}
+
+.Facebook a:hover{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/facebook-icon.png');
+}
+
+.Twitter{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/twitter-icon-hover.png');
+
+}
+
+.Twitter a:hover{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/twitter-icon.png');
+
+}
+
+.LinkedIn{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/Linkedin-icon-hover.png');
+
+}
+.LinkedIn a:hover{
+    background-image: url('http://paksef.com/wp-content/uploads/2015/08/Linkedin-icon.png');
+
+}
