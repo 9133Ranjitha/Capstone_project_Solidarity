@@ -15,23 +15,32 @@ function LadingPage() {
                 <span className='line position'> Financial Resilience</span>
                 </p>
                 <p className='join'> Join our Self-Help Groups for Life-Changing Support</p>
-                <button>Join</button> 
+                <button className='joinbtn'>Join</button> 
             </div>
+            {/* text over laping on image */}
             <div className='solidarityImg'>
-                <img className='hqimg' src='resources/solidarityhq.png'></img>
+                <img className='hqimg' src='resources/unitypic.jpg'></img>
+                <div className='imglay'>
+                    <div className='hqoverlay'>
+                        <p className='headerOne'> The bond of sisterhood in a <br/>self-help group is unbreakable</p>
+                        <p className='subHeader'>Solidarity is not a matter of sentiment<br /> but a fact, cold and impassive as the granite<br /> foundations of a skyscraper</p>
+                        <button className='Unlockbtn'>Unlock</button>
+                    </div>
+                </div>
             </div>
             <div className='container'>
-                <img className='exclusive' src='resources/exclusive.webp'></img>
+                <img className='exclusive' src='resources/fit.jpg'></img>
                 <div className='text-overlay'>
-                    <p className='exclusive-text'>Unlock Exclusive Rewards and Empowering Opportunities with our Self-Help Group.</p>
-                    <p className='manage'>Imagine a world where every day, your savings can transform lives and open new doors of opportunity for you and others. Welcome to our groundbreaking platform that revolutionizes the way you manage your finances.</p>
-                    <button className='Unlock'>Unlock</button>
+                    <p className='headerOne'>When women unite, they <br/>become an unstoppable<br/> force of change</p>
+                    <p className='subHeader'>Strength, resilience, and unity define<br /> the women of a self-help<br /> group community.</p>
+                    <button className='lock'>GetStart</button>
                 </div>
             </div>
             <div className='securityDepart'>
                 <img className='security' src='resources/security.jpg'></img>
                 <div className='securityoverlay'>
-                    <p className='securitytext'>we take your money matters seriously.so that you don’t have to.never miss a due date with reminders to help you pay your saving amount  on time, instant settlements mean you never wait for your payments return back analysis lets you know where your money goes, always.</p>
+                    <p className='headerOne'>Behind every successful woman is<br /> a tribe of other successful women</p>
+                    <p className='subHeader'>we take your money matters seriously.<br />so that you don’t have to.<br />never miss a due date with reminders to help you pay<br /> your saving amount  on time, instant settlements<br /> mean you never wait for your payments return<br /> back analysis lets you know<br /> where your money goes, always.</p>
                     <button className='securitybtn'>Join</button>
                 </div>
             </div>

@@ -27,7 +27,7 @@ input{
     height: 30px;
     margin-top: 10px;
     border: none;
-    background-color:rgb(236, 200, 131);
+    background-color:black;
 }
 .loginbtn{
     margin-top: 20px;
@@ -36,7 +36,7 @@ input{
     height: 30px;
 }
 ::placeholder{
-    color: black;
+    color:white;
     padding-left: 10px;
 }
 p{
