@@ -17,7 +17,6 @@ function LadingPage() {
                 <p className='join'> Join our Self-Help Groups for Life-Changing Support</p>
                 <button className='joinbtn'>Join</button> 
             </div>
-            {/* text over laping on image */}
             <div className='solidarityImg'>
                 <img className='hqimg' src='resources/unitypic.jpg'></img>
                 <div className='imglay'>
@@ -47,7 +46,7 @@ function LadingPage() {
             <div className='trust'>
                 <img className='blueimg' src='resources/Blue.jpg' alt=''></img>
                 <div className='trustoverlay'>
-                    <h1 className='story'>Story of Solidarity</h1>
+                    <p className='story'>Story of Solidarity</p>
                     <p className='storytext'>We believe that trust is the bedrock of any meaningful relationship. That's why we've built a community where trust is at the heart of everything we do. Together, we create a powerful force that paves the way for a brighter future.
 With us, you can trust that your aspirations will be supported. Our platform brings together individuals like you who believe in the power of collective action. We stand united, bound by the belief that when we trust each other, we can accomplish great things.</p>
                 </div>
@@ -57,15 +56,24 @@ With us, you can trust that your aspirations will be supported. Our platform bri
                 <div><img className='euro' src='resources/euro.png'></img></div>
                 <div><button className='logingbtn'>Login</button></div>
             </div>
-            <footer>
-                <div className='box imges'>
-                    <img className='footerimg' src='resources/icon.webp'></img>
-                    <h3>Embrace Solidarity, Shape Your Future</h3>
+            <footer className='footerContainer'>
+                <img  className="footerimg" src='resources/footer.jpg'></img>
+                <div className='overlay'>
+                    <div className='Footerdepart'>
+                        <div className=' box footerleft'><img className='footerlogo' src='resources/icon.jpg'></img>
+                        <p className='headerOne place'>About Us</p>
+                        <p className='subHeader'></p>
+                        
+                        </div>
+                        <div className=' box footermiddle'><h1>rama</h1></div>
+                        <div className=' box footerright'><h1>rama</h1></div>
+                       
+                    </div>
                 </div>
-                <div class=" boxsocial-icons">
-                    <img src="https://www.bing.com/th?id=OIP.RSuOODQhBUfjxScQRapaPAHaHa&w=176&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" href=""></img>
-
-                </div>
+                
+                
+                
+                
             </footer>
 
         </div>
