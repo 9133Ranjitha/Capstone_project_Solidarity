@@ -1,0 +1,153 @@
+nav{
+    background-color: rgb(46, 152, 156);
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+    justify-content: space-around;
+   
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: -17px;
+    opacity: 1.5;
+}
+
+.masteryContainer{
+    margin-top:50px;
+    border: 1px solid black;
+}
+.moneyHeder{
+    text-align: center;
+    color: black;
+}
+
+.dtailsContainer{
+    margin-top:0px;
+    border: 3px solid rgb(46, 152, 156);
+    padding-top: 10px;
+    background-color:rgba(157, 21, 159, 0.137);
+}
+
+.Onecontainer {
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-bottom:10px;
+
+}
+
+P{
+    padding-right: 10px;
+    padding-left: 5px;
+
+ }
+
+.jamaSpending{
+    margin-top:0px;
+    border: 1px solid black;
+
+}
+
+.jamaheader{
+    color: black;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:0px;
+    font-size: 20px;
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.jamatotal{
+    padding-left: 5px;
+    margin-top:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-top:  2px solid black;
+
+}
+
+.jamadetails{
+    color:black;
+}
+
+.rupee{
+    margin-top:0px;
+    border: 1px solid black;
+
+}
+
+.data{
+
+    margin-top:0px;
+    border: 1px solid black;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pisa{
+    margin-top:0px;
+    border: 1px solid black;
+
+}
+
+input{
+    padding-left: 40px;
+    padding-bottom: 14px;
+    padding-top: 12px;
+    border: none;
+    background-color:transparent;
+}
+
+input:focus {
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+
+.secondcontainer{
+    padding: 40px;
+    margin-top:0px;
+    opacity: 0.7;
+    border: 2px solid black;
+
+}
+
+
+
+
+.thirdcontainer{
+    padding: 40px;
+    margin-top:0px;
+    opacity: 0.7;
+    border: 2px solid black;
+
+}
